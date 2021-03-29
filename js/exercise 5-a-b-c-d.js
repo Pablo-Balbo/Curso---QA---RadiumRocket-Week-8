@@ -27,13 +27,13 @@ var words = ['pablo', 'balbo', 'curso', 'radium', 'rocket'];
 // luego al array del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
 // Al final mostrar una única alerta con la cadena completa.
 
-var sentence = '';
+// var sentence = '';
 
-for(i = 0; i < words.length; i++){
-    var word = words[i]
-}
+// for(i = 0; i < words.length; i++){
+//     sentence += words[i] + " ";
+// }
 
-alert(sentence);
+// alert(sentence);
 
 // ------------------------------------------------------------------------------------------------------
 
@@ -41,8 +41,15 @@ alert(sentence);
 
 // Crear una array vacío y con un bucle for de 10 repeticiones llenar el array con el número de la repetición, 
 // es decir que al final de la ejecución del bucle for deberia haber 10 elementos dentro del array, 
-// desde el número 0 hasta al numero 9. Mostrar por la consola del navegador el al array final (utilizar console.log).
+// desde el número 0 hasta al numero 9. Mostrar por la consola del navegador el array final (utilizar console.log).
 
+emptyArray = [];
+
+for(i = 0; i < 10; i++){
+   emptyArray.push(i);
+}
+
+console.log(emptyArray);
 
 
 // ------------------------------------------------------------------------------------------------------
